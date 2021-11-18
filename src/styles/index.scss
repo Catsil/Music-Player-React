@@ -1,13 +1,104 @@
 @import "~bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Road+Rage&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Road+Rage&family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
-/* 
+#app{
+  height: 100%;
+}
+body {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+}
+.container{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.playlist {
+  background: #0000001c;
+  list-style:none;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  width: 16rem;
+  font-family: 'Road Rage', cursive;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color:beige;
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+.player {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.Title {
+  color: rgb(23, 170, 207);
+  font-family: 'Road Rage', cursive;
+  font-size: xxx-large;
+  text-shadow: 4px 4px 4px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+}
+
+li {
+  list-style:none;
+  font-family: 'Road Rage', cursive;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.2rem;
+  padding: 0 1rem;
+ 
+}
+
+li:hover {
+  background: #83c643;
+  border-radius: 2rem;
+  padding: 0 1rem;
+  font-size: 1.25rem;
+}
+
+.console {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+}
+
+
+.mysongs {
+  font-family: 'Road Rage', cursive;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: x-large;
+  padding: 0 30rem;
+  color: rgb(15, 230, 230);
+  background: transparent;
+  background-color: rgba(255, 255, 255, .05);
+  backdrop-filter: blur(5px);
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+ul {
+  padding-left: 0rem;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+}
